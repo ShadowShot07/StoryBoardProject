@@ -1,6 +1,6 @@
 <?php ?>
-</div>
-<div>
+        </div>
+        <div>
             <footer>
                 <div>
 
