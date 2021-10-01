@@ -3,8 +3,9 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-
-    <!-- Link al css o a los css -->
+    <!---------------------------- 
+        Link al css o a los css 
+    ----------------------------->
     <link rel="stylesheet" href="styles/style.css">
     <title>Website</title>
 </head>
@@ -18,9 +19,8 @@
                 div para el logo 
             ------------------------------>
             <div class="logo">
-
+                <img src="#" alt="">
             </div>
-
             <!-------------------------------
                 div que contiene el navbar
              ------------------------------->
@@ -28,13 +28,13 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="#"></a>
+                            <a href="#">Example 1</a>
                         </li>
                         <li>
-                            <a href="#"></a>
+                            <a href="#">Example 2</a>
                         </li>
                         <li>
-                            <a href="#"></a>
+                            <a href="#">Example 3</a>
                         </li>
                     </ul>
                 </nav>

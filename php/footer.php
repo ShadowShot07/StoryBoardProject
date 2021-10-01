@@ -3,7 +3,6 @@
             Termina el div con el contenido principal de la página
          ------------------------------------------------------------>
         </div>
-
         <!----------------------
             div para el footer
          ---------------------->
