@@ -1,2 +1,2 @@
 # StoryBoardProject
-Storyboard of a website created for a class project.
+Storyboard of a website about books created for a class project.

@@ -7,7 +7,7 @@
         Link al css o a los css 
     ----------------------------->
     <link rel="stylesheet" href="styles/style.css">
-    <title>Website</title>
+    <title>Website about books</title>
 </head>
 <body>
     <!-------------------------------------- 
