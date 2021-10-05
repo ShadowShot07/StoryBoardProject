@@ -25,19 +25,21 @@
                 div que contiene el navbar
              ------------------------------->
             <div class="navbar">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#">Example 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Example 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Example 3</a>
-                        </li>
-                    </ul>
-                </nav>
+                <input type="checkbox" id="menu">
+                <label for="menu"> Menu </label>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">Example 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Example 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Example 3</a>
+                            </li>
+                        </ul>
+                    </nav>
             </div>
         </header>
         <!----------------------------------------
