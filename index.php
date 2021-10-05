@@ -23,6 +23,5 @@
                 Sapiente amet minus accusantium sit fuga asperiores delectus
                 facilis distinctio dolor at, laudantium nihil perferendis cumque
                 cupiditate dolorem nemo suscipit facere recusandae!
-                aaaaaaaaaaaaaaaaaaaaaaaaaahhhhhhhhhhhhhhhaaaaaaaaaaaaaaaaaaaaa
             </section>
 <?php include "php/footer.php"; // Incluye el footer a la página?>
