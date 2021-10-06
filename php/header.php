@@ -7,9 +7,16 @@
         Link al css o a los css 
     ----------------------------->
     <link rel="stylesheet" href="styles/style.css">
+
+    <!--------------- 
+        Canvas 
+    ----------------->
+    <script src="js/mySketch.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.5.16/lib/p5.min.js"></script>
     <title>Website about books</title>
 </head>
 <body>
+    
     <!-------------------------------------- 
         div que coge todo el contenido 
     --------------------------------------->
@@ -17,10 +24,10 @@
         <header>
             <!----------------------------- 
                 div para el logo 
-            ------------------------------>
+            
             <div class="logo">
                 <img src="#" alt="">
-            </div>
+            </div> ------------------------------>
             <!-------------------------------
                 div que contiene el navbar
              ------------------------------->
