@@ -1,27 +1,71 @@
 <?php include "php/header.php"; // Incluye el header a la página?>
-            <!------------------------ 
-                Aside de la página
-            ------------------------->
-            <aside class="sidebar">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Sapiente amet minus accusantium sit fuga asperiores delectus
-                facilis distinctio dolor at, laudantium nihil perferendis cumque
-                cupiditate dolorem nemo suscipit facere recusandae!
-            </aside>
-
+            <!------------------
+                 Canvas 
+            ------------------->
+            <div>
+            
+            </div>
             <!---------------------------
                 Secciones de la página
              --------------------------->
             <section>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Sapiente amet minus accusantium sit fuga asperiores delectus
-                facilis distinctio dolor at, laudantium nihil perferendis cumque
-                cupiditate dolorem nemo suscipit facere recusandae!a
+                <h2>Alice Kellen</h2>
+                <div>
+                    Alice Kellen nació en Valencia en 1989. Es una joven promesa de las letras españolas que acostumbra a vivir entre los personajes, 
+                    las escenas y las emociones que plasma en el papel. Es autora de las novelas Sigue lloviendo, El día que dejó de nevar en Alaska, 
+                    33 razones para volver a verte, 23 otoños antes de ti, 13 locuras que regalarte, Llévame a cualquier lugar, El chico que dibujaba constelaciones, 
+                    la bilogía Deja que ocurra: Todo lo que nunca fuimos y Todo lo que somos juntos, Nosotros en la luna y Las alas de Sophie.
+                </div>
+                <div>
+                    <img src="img/fotopredeterminada.jpg" width="350" height="300">
+                </div>
+                <div>
+                    <a href="page1.php">Leer más...</a>
+                </div>
             </section>
             <section>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Sapiente amet minus accusantium sit fuga asperiores delectus
-                facilis distinctio dolor at, laudantium nihil perferendis cumque
-                cupiditate dolorem nemo suscipit facere recusandae!
+            <h2>John Green</h2>
+                <div>
+                    John Green nació el 24 de agosto del año 1977 en la ciudad de Indianapolis, Indiana (Estados Unidos). Es hijo de Sydney Green y de Mike Green, 
+                    quien fue director de un centro de Conservación Natural.En su niñez vivió en Orlando, Florida, en donde sufrió acoso escolar.
+                    Las cosas mejoraron para John cuando su familia se trasladó al estado de Alabama, concretamente a Birmingham, y fue internado en la Indian Spings School.
+                    Estudió Lengua Inglesa y Estudios Religiosos en la Kenyon College de Ohio. Trabajó como capellán en un hospital pediátrico y como asistente editorial.
+                </div>
+                <div>
+                    <img src="img/fotopredeterminada.jpg" width="350" height="300">
+                </div>
+                <div>
+                    <a href="page2.php">Leer más...</a>
+                </div>
+            </section>
+            <section>
+            <h2>Anna Todd</h2>
+                <div>
+                    Anna Todd nació en Ohio en 1989. Ha figurado en la lista de bestsellers del The New York Times como autora de la Serie After, Sisters. Lazos infinitos y, 
+                    más recientemente, la Serie Stars. La Serie After ha sido publicada en más de treinta y cinco idiomas, y ha sido número uno en varias listas internacionales de 
+                    bestsellers. Desde entonces, ha escrito ocho novelas más y ha ejercido de guionista y productora en la adaptación cinematográfica de After. 
+                    En mil pedazos, la secuela de After.
+                </div>
+                <div>
+                    <img src="img/fotopredeterminada.jpg" width="350" height="300">
+                </div>
+                <div>
+                    <a href="page3.php">Leer más...</a>
+                </div>
+            </section>
+            <section>
+            <h2>J.R.R Tolkien</h2>
+                <div>
+                    John Ronald Reuel Tolkien (AFI: dʒɒn ˈɹʷɒnld ˈɹʷuːəl ˈtʰɒlkiːn) (Bloemfontein, hoy Sudáfrica; 3 de enero de 1892-Bournemouth, Dorset; 2 de septiembre de 1973), 
+                    a menudo citado como J. R. R. Tolkien o JRRT, fue un escritor, poeta, filólogo, lingüista y profesor universitario británico, conocido principalmente por ser el 
+                    autor de las novelas clásicas de fantasía heroica El hobbit, El Silmarillion y El Señor de los Anillos.De 1925 a 1945, Tolkien ocupó la cátedra Rawlinson y Bosworth 
+                    en la Universidad de Oxford, enseñando anglosajón y, de 1945 a 1959, fue profesor de Lengua y Literatura inglesa en Merton. 
+                </div>
+                <div>
+                    <img src="img/fotopredeterminada.jpg" width="350" height="300">
+                </div>
+                <div>
+                    <a href="page4.php">Leer más...</a>
+                </div>
             </section>
 <?php include "php/footer.php"; // Incluye el footer a la página?>
