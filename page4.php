@@ -3,36 +3,36 @@
                 Secciones de la página
              --------------------------->
             <section>
-                <h2>Biografia de Anna todd</h2>
+                <h2>Biografia de J.R.R Tolkien</h2>
                 <div>
-                    Anna Todd nació en Ohio en 1989. Ha figurado en la lista de bestsellers del The New York Times como autora de la Serie After, Sisters. Lazos infinitos y, 
-                    más recientemente, la Serie Stars. La Serie After ha sido publicada en más de treinta y cinco idiomas, y ha sido número uno en varias listas internacionales de 
-                    bestsellers. Desde entonces, ha escrito ocho novelas más y ha ejercido de guionista y productora en la adaptación cinematográfica de After. 
-                    En mil pedazos, la secuela de After.
+                    John Ronald Reuel Tolkien (AFI: dʒɒn ˈɹʷɒnld ˈɹʷuːəl ˈtʰɒlkiːn) (Bloemfontein, hoy Sudáfrica; 3 de enero de 1892-Bournemouth, Dorset; 2 de septiembre de 1973), a menudo citado como J. R. R. Tolkien o JRRT, fue un escritor, poeta, filólogo, lingüista y profesor universitario británico, conocido principalmente por ser el autor de las novelas clásicas de fantasía heroica El hobbit, El Silmarillion y El Señor de los Anillos.
+                    De 1925 a 1945, Tolkien ocupó la cátedra Rawlinson y Bosworth en la Universidad de Oxford, enseñando anglosajón y, de 1945 a 1959, fue profesor de Lengua y Literatura inglesa en Merton. Era amigo cercano del también escritor C. S. Lewis y ambos eran miembros de un informal grupo de debate literario conocido como los Inklings. Tolkien fue nombrado Comendador de la Orden del Imperio Británico por la reina Isabel II el 28 de marzo de 1972.
                 </div>
                 <div>
-                    <img src="img/annaTodd1.jpg" width="300" height="300">
+                    <img src="img/jrrTolkien1.jpg" width="300" height="300">
                 </div>
             </section>
             <section>
-                <h3>Libros de la autora</h3>
+                <h3>Libros del autor</h3>
                 <div>
                     <div>
-                        <img src="img/annaToddLibro1.jpg" width="300" height="300">
+                        <img src="img/jrrTolkienLibro1.jpg" width="300" height="300">
                     </div>
                     <div>
-                        <h4>After serie</h4>
+                        <h4>El señor de los anillos</h4>
                         <div>
-                            Tessa Young se enfrenta a su primer año en la universidad. Acostumbrada a una vida estable y ordenada, su mundo cambia cuando conoce a Hardin, 
-                            el chico malo por excelencia, con tatuajes y de mala vida.
-                            La inocencia, el despertar a la vida, el descubrimiento del sexo… un amor infinito, dos polos opuestos hechos el uno para el otro.
+                            El Señor de los Anillos es una novela de fantasía épica escrita por el filólogo y escritor británico J. R. R. Tolkien. Su historia se desarrolla en la 
+                            Tercera Edad del Sol de la Tierra Media, un lugar ficticio poblado por hombres y otras razas antropomorfas como los hobbits, los elfos o los enanos, 
+                            así como por muchas otras criaturas reales y fantásticas. La novela narra el viaje del protagonista principal, Frodo Bolsón, hobbit de la Comarca, para 
+                            destruir el Anillo Único y la consiguiente guerra que provocará el enemigo para recuperarlo, ya que es la principal fuente de poder de su creador, 
+                            el Señor oscuro, Sauron.
                         </div>
                     </div>
                     <div>
-                        <img src="img/annaToddLibro3.jpg" width="300" height="300">
+                        <img src="img/jrrTolkienLibro2.jpg" width="300" height="300">
                     </div>
                     <div>
-                        <h4>Imagina</h4>
+                        <h4>El hobbit</h4>
                         <div>
                             Imagina correr por la ciudad esquivando paparazzis con Jennifer Lawrence... Imagina a Justin Bieber organizando una romántica yincana por vuestro 
                             aniversario que cuenta la historia de vuestro amor... Imagina un mundo en el que los selfies están prohibidos y en el que Kim Kardashian se ha convertido 
