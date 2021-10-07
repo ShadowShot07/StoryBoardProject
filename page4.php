@@ -1,17 +1,71 @@
-<?php include "php/header.php"; // Incluye el header a la página?>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!---------------------------- 
+        Link al css o a los css 
+    ----------------------------->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!--------------- 
+        Canvas 
+    ----------------->
+
+    <title>J.R.R Tolkien</title>
+</head>
+
+<body>
+
+    <!-------------------------------------- 
+        div que coge todo el contenido 
+    --------------------------------------->
+    <div class="container">
+        <header>
+            <!----------------------------- 
+                div para el logo 
+            
+            <div class="logo">
+                <img src="#" alt="">
+            </div> ------------------------------>
+            <!-------------------------------
+                div que contiene el navbar
+             ------------------------------->
+            <div class="navbar">
+                <input type="checkbox" id="menu">
+                <label for="menu"> Menu </label>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Example 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Example 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Example 3</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!----------------------------------------
+            Empieza el contenido de la página
+         ---------------------------------------->
+        <div class="body-page">
             <div class="carousel">
                 <div class="carousel-inner">
                     <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
                     <div class="carousel-item">
-                        <img src="http://fakeimg.pl/2000x800/0079D8/fff/?text=Without">
+                        <img src="img/jrrTolkienLibro7.jpg">
                     </div>
                     <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
                     <div class="carousel-item">
-                        <img src="http://fakeimg.pl/2000x800/DA5930/fff/?text=JavaScript">
+                        <img src="img/jrrTolkienLibro8.jpg">
                     </div>
                     <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
                     <div class="carousel-item">
-                        <img src="http://fakeimg.pl/2000x800/F90/fff/?text=Carousel">
+                        <img src="img/jrrTolkienLibro9.jpg">
                     </div>
                     <label for="carousel-3" class="carousel-control prev control-1">‹</label>
                     <label for="carousel-2" class="carousel-control next control-1">›</label>
@@ -38,10 +92,10 @@
             <section>
                 <h2>Biografia de J.R.R Tolkien</h2>
                 <div>
-                    John Ronald Reuel Tolkien nácido en Bloemfontein, hoy Sudáfrica; 3 de enero de 1892-Bournemouth, a menudo citado como J. R. R. Tolkien o JRRT, fue un escritor, 
-                    poeta, filólogo, lingüista y profesor universitario británico, conocido principalmente por ser el autor de las novelas clásicas de fantasía heroica El hobbit, 
-                    El Silmarillion y El Señor de los Anillos. De 1925 a 1945, Tolkien ocupó la cátedra Rawlinson y Bosworth en la Universidad de Oxford, enseñando anglosajón y, 
-                    de 1945 a 1959, fue profesor de Lengua y Literatura inglesa en Merton. Era amigo cercano del también escritor C. S. Lewis y ambos eran miembros de un informal 
+                    John Ronald Reuel Tolkien nácido en Bloemfontein, hoy Sudáfrica; 3 de enero de 1892-Bournemouth, a menudo citado como J. R. R. Tolkien o JRRT, fue un escritor,
+                    poeta, filólogo, lingüista y profesor universitario británico, conocido principalmente por ser el autor de las novelas clásicas de fantasía heroica El hobbit,
+                    El Silmarillion y El Señor de los Anillos. De 1925 a 1945, Tolkien ocupó la cátedra Rawlinson y Bosworth en la Universidad de Oxford, enseñando anglosajón y,
+                    de 1945 a 1959, fue profesor de Lengua y Literatura inglesa en Merton. Era amigo cercano del también escritor C. S. Lewis y ambos eran miembros de un informal
                     grupo de debate literario conocido como los Inklings. Tolkien fue nombrado Comendador de la Orden del Imperio Británico por la reina Isabel II el 28 de marzo de 1972.
                 </div>
                 <div>
@@ -57,10 +111,10 @@
                     <div>
                         <h4>El señor de los anillos</h4>
                         <div>
-                            El Señor de los Anillos es una novela de fantasía épica escrita por el filólogo y escritor británico J. R. R. Tolkien. Su historia se desarrolla en la 
-                            Tercera Edad del Sol de la Tierra Media, un lugar ficticio poblado por hombres y otras razas antropomorfas como los hobbits, los elfos o los enanos, 
-                            así como por muchas otras criaturas reales y fantásticas. La novela narra el viaje del protagonista principal, Frodo Bolsón, hobbit de la Comarca, para 
-                            destruir el Anillo Único y la consiguiente guerra que provocará el enemigo para recuperarlo, ya que es la principal fuente de poder de su creador, 
+                            El Señor de los Anillos es una novela de fantasía épica escrita por el filólogo y escritor británico J. R. R. Tolkien. Su historia se desarrolla en la
+                            Tercera Edad del Sol de la Tierra Media, un lugar ficticio poblado por hombres y otras razas antropomorfas como los hobbits, los elfos o los enanos,
+                            así como por muchas otras criaturas reales y fantásticas. La novela narra el viaje del protagonista principal, Frodo Bolsón, hobbit de la Comarca, para
+                            destruir el Anillo Único y la consiguiente guerra que provocará el enemigo para recuperarlo, ya que es la principal fuente de poder de su creador,
                             el Señor oscuro, Sauron.
                         </div>
                     </div>
@@ -70,10 +124,10 @@
                     <div>
                         <h4>El hobbit</h4>
                         <div>
-                            El hobbit (título original en inglés: The Hobbit, or There and Back Again, usualmente abreviado como The Hobbit) es una novela fantástica del filólogo y 
-                            escritor británico J. R. R. Tolkien. Fue escrita por partes desde finales de los años 1920 hasta principios de los años 1930 y, en un principio, tan solo 
-                            tenía el objetivo de divertir a los hijos pequeños de Tolkien.1​ No obstante, el escritor prestó a varias personas el manuscrito de la obra aún inacabada, 
-                            que terminó en manos de la editorial George Allen & Unwin. Dispuestos a publicarla, los editores pidieron a Tolkien que finalizara la obra y El hobbit fue 
+                            El hobbit (título original en inglés: The Hobbit, or There and Back Again, usualmente abreviado como The Hobbit) es una novela fantástica del filólogo y
+                            escritor británico J. R. R. Tolkien. Fue escrita por partes desde finales de los años 1920 hasta principios de los años 1930 y, en un principio, tan solo
+                            tenía el objetivo de divertir a los hijos pequeños de Tolkien.1​ No obstante, el escritor prestó a varias personas el manuscrito de la obra aún inacabada,
+                            que terminó en manos de la editorial George Allen & Unwin. Dispuestos a publicarla, los editores pidieron a Tolkien que finalizara la obra y El hobbit fue
                             publicada el 21 de septiembre de 1937 en el Reino Unido.
                         </div>
                     </div>
@@ -83,11 +137,11 @@
                     <div>
                         <h4>El Silmarillion</h4>
                         <div>
-                            El Silmarillion es una recopilación de obras de J. R. R. Tolkien, editada y publicada póstumamente por su hijo Christopher Tolkien, en 1977. 
+                            El Silmarillion es una recopilación de obras de J. R. R. Tolkien, editada y publicada póstumamente por su hijo Christopher Tolkien, en 1977.
                             En ella, se narra, entre otras cosas, la creación de Eä y el nacimiento de las razas más importantes (Valar, Maiar, elfos, hombres y enanos) de la Tierra Media.
-                            La mayor porción de El Silmarillion, titulada «Quenta Silmarillion» trata sobre los Silmaril, joyas hechas por Fëanor en Aman y alrededor de las 
-                            cuales se entreteje la historia de la Primera Edad del Sol en la Tierra Media, principalmente en la región conocida como Beleriand. 
-                            También se incluyen otras historias más breves: «Ainulindalë», «Valaquenta» y «Akallabêth». Una última historia («De los Anillos de Poder y la Tercera Edad») 
+                            La mayor porción de El Silmarillion, titulada «Quenta Silmarillion» trata sobre los Silmaril, joyas hechas por Fëanor en Aman y alrededor de las
+                            cuales se entreteje la historia de la Primera Edad del Sol en la Tierra Media, principalmente en la región conocida como Beleriand.
+                            También se incluyen otras historias más breves: «Ainulindalë», «Valaquenta» y «Akallabêth». Una última historia («De los Anillos de Poder y la Tercera Edad»)
                             sirve como marco de referencia histórico para El hobbit y El Señor de los Anillos, las más conocidas novelas de Tolkien.
                         </div>
                     </div>
@@ -97,12 +151,12 @@
                     <div>
                         <h4>Cuentos inconclusos de Númenor y la Tierra Media</h4>
                         <div>
-                            Los Cuentos inconclusos de Númenor y la Tierra Media (también conocidos simplemente como Cuentos inconclusos) es una colección de historias escritas por 
+                            Los Cuentos inconclusos de Númenor y la Tierra Media (también conocidos simplemente como Cuentos inconclusos) es una colección de historias escritas por
                             J. R. R. Tolkien que nunca fueron completadas en vida del escritor, pero fueron editadas por su hijo Christopher Tolkien y publicadas en 1980.
-                            Al contrario que en El Silmarillion, en el cual se modificaron los fragmentos de la narrativa para conectarlos y crear una obra consistente y coherente, 
-                            los Cuentos inconclusos se presentan como Tolkien los concibió, con el ligero cambio de algunos nombres (el autor tenía el hábito de inventar distintos 
-                            nombres para un personaje mientras escribía sus borradores). De esta manera, algunas de estas historias están incompletas, mientras que otras son colecciones 
-                            puramente informativas acerca de la Tierra Media. Cada cuento está acompañado de una larga serie de notas aclarando puntos inconsistentes y oscuros. 
+                            Al contrario que en El Silmarillion, en el cual se modificaron los fragmentos de la narrativa para conectarlos y crear una obra consistente y coherente,
+                            los Cuentos inconclusos se presentan como Tolkien los concibió, con el ligero cambio de algunos nombres (el autor tenía el hábito de inventar distintos
+                            nombres para un personaje mientras escribía sus borradores). De esta manera, algunas de estas historias están incompletas, mientras que otras son colecciones
+                            puramente informativas acerca de la Tierra Media. Cada cuento está acompañado de una larga serie de notas aclarando puntos inconsistentes y oscuros.
                         </div>
                     </div>
                     <div>
@@ -111,11 +165,11 @@
                     <div>
                         <h4>La caída de Gondolin</h4>
                         <div>
-                            «La caída de Gondolin» es un relato del escritor británico J. R. R. Tolkien, publicado de forma póstuma por su tercer hijo y principal editor, 
-                            Christopher Tolkien, en el segundo volumen de La historia de la Tierra Media: El libro de los cuentos perdidos 2. Narra la destrucción del reino ficticio 
-                            de Gondolin a manos de los ejércitos del vala oscuro Morgoth y finaliza con la llegada de los supervivientes a la desembocadura del río Sirion, 
+                            «La caída de Gondolin» es un relato del escritor británico J. R. R. Tolkien, publicado de forma póstuma por su tercer hijo y principal editor,
+                            Christopher Tolkien, en el segundo volumen de La historia de la Tierra Media: El libro de los cuentos perdidos 2. Narra la destrucción del reino ficticio
+                            de Gondolin a manos de los ejércitos del vala oscuro Morgoth y finaliza con la llegada de los supervivientes a la desembocadura del río Sirion,
                             donde establecen su nuevo asentamiento.
-                            J. R. R. Tolkien escribió la primera versión de «La caída de Gondolin» en 1917, cuando se encontraba de baja en Great Haywood a causa de una enfermedad 
+                            J. R. R. Tolkien escribió la primera versión de «La caída de Gondolin» en 1917, cuando se encontraba de baja en Great Haywood a causa de una enfermedad
                             contraída durante su servicio en la Primera Guerra Mundial.
                         </div>
                     </div>
@@ -125,16 +179,39 @@
                     <div>
                         <h4>Los hijos de Húrin</h4>
                         <div>
-                            Los hijos de Húrin (título original en inglés: The Children of Húrin) es una novela del escritor y filólogo británico J. R. R. Tolkien, 
+                            Los hijos de Húrin (título original en inglés: The Children of Húrin) es una novela del escritor y filólogo británico J. R. R. Tolkien,
                             publicada de forma póstuma el 17 de abril de 2007 en todo el mundo,1​ tras ser editada por su hijo Christopher.
-                            La novela está ambientada en la Primera Edad del Sol de la Tierra Media, el lugar ficticio donde se desarrolla la mayor parte del legendarium creado por Tolkien, 
-                            poblado por hombres y otras razas humanoides (elfos y enanos), así como muchas otras criaturas reales y fantásticas. 
-                            La historia trata sobre un hombre llamado Húrin, perteneciente a la Casa de Hador de raza de los edain, y sobre la maldición que el vala Morgoth echa sobre él y 
-                            sus descendientes. Dentro de la estructura del legendarium, la historia es conocida en idioma sindarin como Narn i Chîn Húrin, «Historia de los hijos de Húrin»; 
-                            se la menciona varias veces simplemente como el Narn. La balada original se describe como escrita en el año 499 de la Primera Edad del Sol por Dírhaval, 
-                            un poeta mortal nacido en Dor-lómin, pero refugiado en las bocas del Sirion. 
+                            La novela está ambientada en la Primera Edad del Sol de la Tierra Media, el lugar ficticio donde se desarrolla la mayor parte del legendarium creado por Tolkien,
+                            poblado por hombres y otras razas humanoides (elfos y enanos), así como muchas otras criaturas reales y fantásticas.
+                            La historia trata sobre un hombre llamado Húrin, perteneciente a la Casa de Hador de raza de los edain, y sobre la maldición que el vala Morgoth echa sobre él y
+                            sus descendientes. Dentro de la estructura del legendarium, la historia es conocida en idioma sindarin como Narn i Chîn Húrin, «Historia de los hijos de Húrin»;
+                            se la menciona varias veces simplemente como el Narn. La balada original se describe como escrita en el año 499 de la Primera Edad del Sol por Dírhaval,
+                            un poeta mortal nacido en Dor-lómin, pero refugiado en las bocas del Sirion.
                         </div>
                     </div>
                 </div>
             </section>
-<?php include "php/footer.php"; // Incluye el footer a la página?>
+            <!------------------------------------------------------------
+            Termina el div con el contenido principal de la página
+         ------------------------------------------------------------>
+        </div>
+        <!----------------------
+            div para el footer
+         ---------------------->
+        <div>
+            <footer>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+            </footer>
+        </div>
+        <!------------------------------
+        Cierre del div container
+     ------------------------------>
+    </div>
+</body>
+
+</html>
