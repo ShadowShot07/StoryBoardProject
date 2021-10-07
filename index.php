@@ -2,6 +2,7 @@
             <!------------------
                  Canvas 
             ------------------->
+            
             <div>
             
             </div>
@@ -56,10 +57,11 @@
             <section>
             <h2>J.R.R Tolkien</h2>
                 <div>
-                    John Ronald Reuel Tolkien (AFI: dʒɒn ˈɹʷɒnld ˈɹʷuːəl ˈtʰɒlkiːn) (Bloemfontein, hoy Sudáfrica; 3 de enero de 1892-Bournemouth, Dorset; 2 de septiembre de 1973), 
-                    a menudo citado como J. R. R. Tolkien o JRRT, fue un escritor, poeta, filólogo, lingüista y profesor universitario británico, conocido principalmente por ser el 
-                    autor de las novelas clásicas de fantasía heroica El hobbit, El Silmarillion y El Señor de los Anillos.De 1925 a 1945, Tolkien ocupó la cátedra Rawlinson y Bosworth 
-                    en la Universidad de Oxford, enseñando anglosajón y, de 1945 a 1959, fue profesor de Lengua y Literatura inglesa en Merton. 
+                    John Ronald Reuel Tolkien nácido en Bloemfontein, hoy Sudáfrica; 3 de enero de 1892-Bournemouth, a menudo citado como J. R. R. Tolkien o JRRT, fue un escritor, 
+                    poeta, filólogo, lingüista y profesor universitario británico, conocido principalmente por ser el autor de las novelas clásicas de fantasía heroica El hobbit, 
+                    El Silmarillion y El Señor de los Anillos. De 1925 a 1945, Tolkien ocupó la cátedra Rawlinson y Bosworth en la Universidad de Oxford, enseñando anglosajón y, 
+                    de 1945 a 1959, fue profesor de Lengua y Literatura inglesa en Merton. Era amigo cercano del también escritor C. S. Lewis y ambos eran miembros de un informal 
+                    grupo de debate literario conocido como los Inklings. Tolkien fue nombrado Comendador de la Orden del Imperio Británico por la reina Isabel II el 28 de marzo de 1972.
                 </div>
                 <div>
                     <img src="img/fotopredeterminada.jpg" width="350" height="300">
@@ -68,4 +70,5 @@
                     <a href="page4.php">Leer más...</a>
                 </div>
             </section>
+            
 <?php include "php/footer.php"; // Incluye el footer a la página?>

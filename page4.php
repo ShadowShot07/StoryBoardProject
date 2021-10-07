@@ -1,12 +1,48 @@
 <?php include "php/header.php"; // Incluye el header a la página?>
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                    <div class="carousel-item">
+                        <img src="http://fakeimg.pl/2000x800/0079D8/fff/?text=Without">
+                    </div>
+                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                        <img src="http://fakeimg.pl/2000x800/DA5930/fff/?text=JavaScript">
+                    </div>
+                    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                        <img src="http://fakeimg.pl/2000x800/F90/fff/?text=Carousel">
+                    </div>
+                    <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+                    <label for="carousel-2" class="carousel-control next control-1">›</label>
+                    <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                    <label for="carousel-3" class="carousel-control next control-2">›</label>
+                    <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+                    <label for="carousel-1" class="carousel-control next control-3">›</label>
+                    <ol class="carousel-indicators">
+                        <li>
+                            <label for="carousel-1" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-2" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-3" class="carousel-bullet">•</label>
+                        </li>
+                    </ol>
+                </div>
+            </div>
             <!---------------------------
                 Secciones de la página
              --------------------------->
             <section>
                 <h2>Biografia de J.R.R Tolkien</h2>
                 <div>
-                    John Ronald Reuel Tolkien (AFI: dʒɒn ˈɹʷɒnld ˈɹʷuːəl ˈtʰɒlkiːn) (Bloemfontein, hoy Sudáfrica; 3 de enero de 1892-Bournemouth, Dorset; 2 de septiembre de 1973), a menudo citado como J. R. R. Tolkien o JRRT, fue un escritor, poeta, filólogo, lingüista y profesor universitario británico, conocido principalmente por ser el autor de las novelas clásicas de fantasía heroica El hobbit, El Silmarillion y El Señor de los Anillos.
-                    De 1925 a 1945, Tolkien ocupó la cátedra Rawlinson y Bosworth en la Universidad de Oxford, enseñando anglosajón y, de 1945 a 1959, fue profesor de Lengua y Literatura inglesa en Merton. Era amigo cercano del también escritor C. S. Lewis y ambos eran miembros de un informal grupo de debate literario conocido como los Inklings. Tolkien fue nombrado Comendador de la Orden del Imperio Británico por la reina Isabel II el 28 de marzo de 1972.
+                    John Ronald Reuel Tolkien nácido en Bloemfontein, hoy Sudáfrica; 3 de enero de 1892-Bournemouth, a menudo citado como J. R. R. Tolkien o JRRT, fue un escritor, 
+                    poeta, filólogo, lingüista y profesor universitario británico, conocido principalmente por ser el autor de las novelas clásicas de fantasía heroica El hobbit, 
+                    El Silmarillion y El Señor de los Anillos. De 1925 a 1945, Tolkien ocupó la cátedra Rawlinson y Bosworth en la Universidad de Oxford, enseñando anglosajón y, 
+                    de 1945 a 1959, fue profesor de Lengua y Literatura inglesa en Merton. Era amigo cercano del también escritor C. S. Lewis y ambos eran miembros de un informal 
+                    grupo de debate literario conocido como los Inklings. Tolkien fue nombrado Comendador de la Orden del Imperio Británico por la reina Isabel II el 28 de marzo de 1972.
                 </div>
                 <div>
                     <img src="img/jrrTolkien1.jpg" width="300" height="300">
@@ -34,57 +70,69 @@
                     <div>
                         <h4>El hobbit</h4>
                         <div>
-                            Imagina correr por la ciudad esquivando paparazzis con Jennifer Lawrence... Imagina a Justin Bieber organizando una romántica yincana por vuestro 
-                            aniversario que cuenta la historia de vuestro amor... Imagina un mundo en el que los selfies están prohibidos y en el que Kim Kardashian se ha convertido 
-                            en una defensora de la libertad que necesita tu ayuda para luchar contra las injusticias... ¡Deja volar tu imaginación! Eso es lo que han hecho los autores 
-                            de esta antología de relatos en los que aparecen las estrellas que más te gustan, tales como Zayn Malik, Cameron Dallas, Kanye West, Selena Gomez, Dylan O'Brien, 
-                            Tom Hardy, Jamie Dornan, Benedict Cumberbatch ¡y muchas más! Anna Todd encabeza esta antología
+                            El hobbit (título original en inglés: The Hobbit, or There and Back Again, usualmente abreviado como The Hobbit) es una novela fantástica del filólogo y 
+                            escritor británico J. R. R. Tolkien. Fue escrita por partes desde finales de los años 1920 hasta principios de los años 1930 y, en un principio, tan solo 
+                            tenía el objetivo de divertir a los hijos pequeños de Tolkien.1​ No obstante, el escritor prestó a varias personas el manuscrito de la obra aún inacabada, 
+                            que terminó en manos de la editorial George Allen & Unwin. Dispuestos a publicarla, los editores pidieron a Tolkien que finalizara la obra y El hobbit fue 
+                            publicada el 21 de septiembre de 1937 en el Reino Unido.
                         </div>
                     </div>
                     <div>
-                        <img src="img/annaToddLibro5.jpg" width="300" height="300">
+                        <img src="img/jrrTolkienLibro3.jpg" width="300" height="300">
                     </div>
                     <div>
-                        <h4>Landon 1. Todo por ti</h4>
+                        <h4>El Silmarillion</h4>
                         <div>
-                            Cuando Landon, el mejor amigo de Tessa y hermanastro de Hardin, decide abandonar Washington para ir en busca de aventuras en Nueva York, cree que su vida 
-                            no puede ser más perfecta: compartirá apartamento con Tessa; vivirá, por fin, en la misma ciudad que Dakota, su novia desde hace años; conocerá a gente nueva... 
-                            Pero el destino a veces es caprichoso y tiene sus propios planes y quizás no todo salga como tenía previsto... Una nueva entrega del Universo AFTER, enriquecida 
-                            y con nuevo contenido.
+                            El Silmarillion es una recopilación de obras de J. R. R. Tolkien, editada y publicada póstumamente por su hijo Christopher Tolkien, en 1977. 
+                            En ella, se narra, entre otras cosas, la creación de Eä y el nacimiento de las razas más importantes (Valar, Maiar, elfos, hombres y enanos) de la Tierra Media.
+                            La mayor porción de El Silmarillion, titulada «Quenta Silmarillion» trata sobre los Silmaril, joyas hechas por Fëanor en Aman y alrededor de las 
+                            cuales se entreteje la historia de la Primera Edad del Sol en la Tierra Media, principalmente en la región conocida como Beleriand. 
+                            También se incluyen otras historias más breves: «Ainulindalë», «Valaquenta» y «Akallabêth». Una última historia («De los Anillos de Poder y la Tercera Edad») 
+                            sirve como marco de referencia histórico para El hobbit y El Señor de los Anillos, las más conocidas novelas de Tolkien.
                         </div>
                     </div>
                     <div>
-                        <img src="img/annaToddLibro7.jpg" width="300" height="300">
+                        <img src="img/jrrTolkienLibro4.jpg" width="300" height="300">
                     </div>
                     <div>
-                        <h4>Landon 2. Ahora y siempre</h4>
+                        <h4>Cuentos inconclusos de Númenor y la Tierra Media</h4>
                         <div>
-                            Ahora y siempre:La vida de Landon en Nueva York no está saliendo exactamente como él había imaginado. Tessa sigue triste y encerrada en sí misma por culpa 
-                            de Hardin, el trabajo que ha conseguido no es muy excitante y, para rematarlo, Dakota ha vuelto a aparecer en su vida justo cuando empieza a sentir algo por 
-                            la preciosa y enigmática Nora. Pero Landon está dispuesto a vencer todos los obstáculos para encontrar su camino y conseguir, por fin, su amor verdadero. 
-                            ¿Quién ocupará su corazón? 
+                            Los Cuentos inconclusos de Númenor y la Tierra Media (también conocidos simplemente como Cuentos inconclusos) es una colección de historias escritas por 
+                            J. R. R. Tolkien que nunca fueron completadas en vida del escritor, pero fueron editadas por su hijo Christopher Tolkien y publicadas en 1980.
+                            Al contrario que en El Silmarillion, en el cual se modificaron los fragmentos de la narrativa para conectarlos y crear una obra consistente y coherente, 
+                            los Cuentos inconclusos se presentan como Tolkien los concibió, con el ligero cambio de algunos nombres (el autor tenía el hábito de inventar distintos 
+                            nombres para un personaje mientras escribía sus borradores). De esta manera, algunas de estas historias están incompletas, mientras que otras son colecciones 
+                            puramente informativas acerca de la Tierra Media. Cada cuento está acompañado de una larga serie de notas aclarando puntos inconsistentes y oscuros. 
                         </div>
                     </div>
                     <div>
-                        <img src="img/annaToddLibro9.jpg" width="300" height="300">
+                        <img src="img/jrrTolkienLibro5.jpg" width="300" height="300">
                     </div>
                     <div>
-                        <h4>Sisters: Lazos infinitos</h4>
+                        <h4>La caída de Gondolin</h4>
                         <div>
-                            «A veces sentía que éramos una fuerza de la naturaleza. En ese momento éramos como un poderoso golpe de viento a punto de destruir una ciudad.
-                            Okay, quizás me ha quedado un poco exagerado, pero sí, las hermanas Spring éramos la fuerza de la naturaleza.» 
-                            Beth, Meg, Amy y Jo Spring son hermanas y, aunque son muy distintas entre sí juntas pueden con todo. Acompáñalas y descubre qué esconden sus corazones.
+                            «La caída de Gondolin» es un relato del escritor británico J. R. R. Tolkien, publicado de forma póstuma por su tercer hijo y principal editor, 
+                            Christopher Tolkien, en el segundo volumen de La historia de la Tierra Media: El libro de los cuentos perdidos 2. Narra la destrucción del reino ficticio 
+                            de Gondolin a manos de los ejércitos del vala oscuro Morgoth y finaliza con la llegada de los supervivientes a la desembocadura del río Sirion, 
+                            donde establecen su nuevo asentamiento.
+                            J. R. R. Tolkien escribió la primera versión de «La caída de Gondolin» en 1917, cuando se encontraba de baja en Great Haywood a causa de una enfermedad 
+                            contraída durante su servicio en la Primera Guerra Mundial.
                         </div>
                     </div>
                     <div>
-                        <img src="img/annaToddLibro11.jpg" width="300" height="300">
+                        <img src="img/jrrTolkienLibro6.jpg" width="300" height="300">
                     </div>
                     <div>
-                        <h4>AFTER: la novela gráfica (Volumen Uno)</h4>
+                        <h4>Los hijos de Húrin</h4>
                         <div>
-                            After se está convirtiendo en una novela gráfica, y Teen Vogue tiene su primer vistazo exclusivo a la adaptación, dirigida por la autora Anna Todd. 
-                            Programada para el 22 de marzo de 2022, After: La Novela Gráfica (Volumen Uno) narra el comienzo del emotivo y torbellino romance entre los estudiantes 
-                            universitarios Tessa y Hardin  
+                            Los hijos de Húrin (título original en inglés: The Children of Húrin) es una novela del escritor y filólogo británico J. R. R. Tolkien, 
+                            publicada de forma póstuma el 17 de abril de 2007 en todo el mundo,1​ tras ser editada por su hijo Christopher.
+                            La novela está ambientada en la Primera Edad del Sol de la Tierra Media, el lugar ficticio donde se desarrolla la mayor parte del legendarium creado por Tolkien, 
+                            poblado por hombres y otras razas humanoides (elfos y enanos), así como muchas otras criaturas reales y fantásticas. 
+                            La historia trata sobre un hombre llamado Húrin, perteneciente a la Casa de Hador de raza de los edain, y sobre la maldición que el vala Morgoth echa sobre él y 
+                            sus descendientes. Dentro de la estructura del legendarium, la historia es conocida en idioma sindarin como Narn i Chîn Húrin, «Historia de los hijos de Húrin»; 
+                            se la menciona varias veces simplemente como el Narn. La balada original se describe como escrita en el año 499 de la Primera Edad del Sol por Dírhaval, 
+                            un poeta mortal nacido en Dor-lómin, pero refugiado en las bocas del Sirion. 
                         </div>
                     </div>
                 </div>
