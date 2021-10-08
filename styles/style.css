@@ -3,26 +3,35 @@
     font-family: Arial;
 }
 
-
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
 footer{
-    width: 100%;
+
     margin: 0;
     background-color: #9ebeda;
     bottom: 0%;
+    clear: left;
+}
+.prefooter{
+    clear: left;
 }
 
 section {
+    float: left;
     width: 30%;
-    height: 30%;
+    height: 10%;
     margin: 2%;
     padding: 2%;
     border: black 2px solid;
     text-align: justify;
+    margin-left: 10%;
 }
 
 section img{
     width: 98%;
-    height: 98%;
+
 }
 
 
