@@ -301,7 +301,8 @@ footer{
     clear: left;
     column-count: 2;
     text-align: justify;
-    padding: 3%;
+    margin-top: 10px;
+    margin-bottom: 20px;
     column-rule: black solid 1px;
 }
 
@@ -335,4 +336,12 @@ footer a{
 footer a:hover{
     background-color: #596d94;
     color: white;
+}
+
+.realizado {
+    padding-top: 20px;
+}
+
+.github {
+    padding-top: 30px;
 }
