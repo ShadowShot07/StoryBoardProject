@@ -272,6 +272,7 @@ a img{
     display: block;
     height: 20%;
     width: 20%;
+    /*object-fit: cover;*/
 }
 
 .carousel-control {
