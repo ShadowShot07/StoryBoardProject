@@ -24,6 +24,26 @@ section img{
     width: 98%;
 }
 
+section a{
+    text-decoration: none;
+    background-color: #faeddc;
+    padding: 1%;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 1%;
+    color: #111;
+
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+}
+
+section a:hover{
+    background-color: #596d94;
+    color: white;
+}
+
 /* Section Page 1*/
 .sect1{
     width: 75%;
