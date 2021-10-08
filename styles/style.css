@@ -20,7 +20,7 @@ section {
     margin-left: 10%;
 }
 
-section>img{
+section img{
     width: 98%;
 }
 
@@ -28,16 +28,19 @@ section>img{
 .sect1{
     width: 75%;
     height: 40%;
-    margin: 2%;
+
     padding: 2%;
+
     border: black 2px solid;
     text-align: justify;
-    margin-left: 10%;
+}
+
+.sect1 div{
+    margin-bottom: 1%;
 }
 
 .sect1 img{
     float: left;
-    position: relative;
 }
 
 .sect2{
