@@ -18,6 +18,9 @@ html, body {
     border: black 2px solid;
     text-align: justify;
     margin-left: 10%;
+
+    border-bottom: 5px outset #1C6EA4;
+    border-radius: 35px 26px 40px 40px;
 }
 
 .index-autor img{
@@ -90,6 +93,9 @@ html, body {
     margin-left: 10.5%;
 
     display: inline-block;
+
+    border-bottom: 5px outset #1C6EA4;
+    border-radius: 35px 26px 40px 40px;
 }
 
 .sect2 img{
@@ -205,14 +211,35 @@ article {
 pre span{
     position: relative;
     top: 30%;
-    right: -40%;
-    font-size: 2em;
+    right: -50%;
+
 }
 pre{
     background-color: #C1DEED;
     width: 100%;
     height: 480px;
     margin-top: 0%;
+}
+
+h1{
+    display: inline;
+		position: relative;
+		font: 100px Helvetica, Sans-Serif;
+		letter-spacing: -5px;
+		color: black; 
+}
+
+h1:after{
+    content: "Bienvenidos!!!";
+		position: absolute; left: 10px; top: 5px;
+		color: white;
+}
+
+a img{
+    width: 2%;
+    height: 2%;
+    float: right;
+    text-align: center;
 }
 
 /* ---------------------------------- Carrusel ------------------------------------------------ */
