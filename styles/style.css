@@ -362,7 +362,6 @@ a img{
 
 /* ---------------------------------- Nav ------------------------------------------------ */
 nav{
-
     position: fixed;
     top: 40px;
     right: 2.5%;
@@ -377,7 +376,6 @@ nav{
     flex-direction: column;
     justify-content: center;
     border-radius: 50%;
-    
 }
 
 ul{
@@ -403,17 +401,17 @@ label {
     font-weight: bold;
     text-align: center;
     user-select: none;
-    background-color: #CCDEE7;
+    background-color: #A7D0E5;
 }
   
   /* Estilo del boton cuando se pasa el mouse por encima*/
 label:hover{
-    background: grey;
+    background: #6DB6DA;
 }
   
   /* Estilo del boton cuando el menú está expandido*/
 input:checked ~ label {
-    background: lightgrey; 
+    background: #A7D0E5; 
 }
   
 ul{
@@ -428,12 +426,13 @@ li{
   
 li a{
     display: block;
-    background: lightgrey;
+    background: #A7D0E5;
     margin: 0;
     padding: 10px;
     list-style: none;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #6DB6DA;
     text-decoration: none;
+    color: #111;
 }
   
   /*Estilo cuando el mouse pasa encima de cada link del menu*/
