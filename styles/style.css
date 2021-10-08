@@ -1,9 +1,28 @@
 /* ----------------------------------- Content ------------------------------------------------ */
+*{
+    font-family: Arial;
+}
+
 html, body {
     margin: 0px;
     padding: 0px;
-    
 }
+
+section {
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin: 2%;
+    padding: 2%;
+    border: black 2px solid;
+    text-align: justify;
+}
+
+section img{
+    width: 98%;
+    height: 98%;
+}
+
 
 /* ---------------------------------- Carrusel ------------------------------------------------ */
 .carousel {
@@ -123,13 +142,9 @@ html, body {
 }
 
 /* ---------------------------------- Nav ------------------------------------------------ */
-*{
-    font-family: Arial;
-  }
-  
-  ul{
+ul{
     display: none;
-  }
+}
   
   input:checked  ~ ul{
     display:block;
