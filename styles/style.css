@@ -8,6 +8,7 @@ html, body {
     padding: 0px;
 }
 
+/* Section Index */
 section {
     float: left;
     width: 30%;
@@ -21,7 +22,39 @@ section {
 
 section img{
     width: 98%;
+}
 
+/* Section Page 1*/
+.sect1{
+    width: 75%;
+    height: 40%;
+
+    padding: 2%;
+
+    border: black 2px solid;
+    text-align: justify;
+}
+
+.sect1 div{
+    margin-bottom: 1%;
+}
+
+.sect1 img{
+    float: left;
+}
+
+.sect2{
+    width: 30%;
+    height: 70%;
+    margin: 2%;
+    padding: 2%;
+    border: black 2px solid;
+    text-align: justify;
+    margin-left: 10%;
+}
+
+.sect2 img{
+    width: 98%;
 }
 
 article {
@@ -161,7 +194,7 @@ nav{
 
     position: fixed;
     top: 40px;
-    right: 10%;
+    right: 2.5%;
     z-index: 999;
     background: none;
     border: 0;
@@ -215,7 +248,8 @@ input:checked ~ label {
 ul{
     margin-top:0;
     padding: 0;
-    width: 200px;
+    width: 90px;
+
 }
   
   
