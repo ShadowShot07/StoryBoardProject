@@ -75,6 +75,8 @@ pre p{
     top: 100%;
     right: -50%;
 }
+
+
 /* ---------------------------------- Carrusel ------------------------------------------------ */
 .carousel {
     position: relative;
@@ -252,26 +254,25 @@ ul{
     margin-top:0;
     padding: 0;
     width: 90px;
+}
 
+li{
+    list-style: none;
 }
   
-  
-li {
+li a{
     display: block;
     background: lightgrey;
     margin: 0;
     padding: 10px;
     list-style: none;
     border-bottom: 1px solid grey;
+    text-decoration: none;
 }
   
   /*Estilo cuando el mouse pasa encima de cada link del menu*/
 li:hover {
     filter: brightness(110%);
-}
-
-li a{
-    text-decoration: none;
 }
 
 /* ---------------------------------- Canvas ------------------------------------------------ */
@@ -300,7 +301,7 @@ pre{
 footer{
     clear: left;
     column-count: 2;
-    text-align: justify;
+    text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
     column-rule: black solid 1px;
