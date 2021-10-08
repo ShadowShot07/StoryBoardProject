@@ -3,13 +3,15 @@
     font-family: Arial;
 }
 
-html, body {
-    margin: 0px;
-    padding: 0px;
+
+footer{
+    width: 100%;
+    margin: 0;
+    background-color: #9ebeda;
+    bottom: 0%;
 }
 
 section {
-    float: left;
     width: 30%;
     height: 30%;
     margin: 2%;
@@ -22,6 +24,7 @@ section img{
     width: 98%;
     height: 98%;
 }
+
 
 
 /* ---------------------------------- Carrusel ------------------------------------------------ */
