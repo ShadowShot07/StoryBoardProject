@@ -300,7 +300,7 @@ pre{
 footer{
     clear: left;
     column-count: 2;
-    text-align: center;
+    text-align: justify;
     padding: 2%;
     column-rule: black solid 1px;
 }
