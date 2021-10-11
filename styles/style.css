@@ -70,7 +70,7 @@ html, body {
 .sect1 img{
     position:absolute;
     left:69%;
-    top: 67%;
+    top: 65%;
     bottom:30%;
     width:20%;
     height:34%;
@@ -137,7 +137,7 @@ html, body {
 .sect3 img{
     position: absolute;
     left:69%;
-    top: 66%;
+    top: 65%;
     bottom:30%;
     width:20%;
     height:34%;
@@ -165,7 +165,7 @@ html, body {
 .sect4 img{
     position: absolute;
     left:69%;
-    top: 66%;
+    top: 65%;
     bottom:30%;
     width:20%;
     height:32%;
@@ -193,7 +193,7 @@ html, body {
 .sect5 img{
     position:absolute;
     left:69%;
-    top: 67%;
+    top: 65%;
     bottom:30%;
     width:20%;
     height:38%;
@@ -454,7 +454,7 @@ li:hover {
 body.hasFrameBorder canvas:first-of-type {
     position: absolute;
     left: 50%;
-    top: 33.3%;
+    top: 32.6%;
 	transform: translate(-95%, -50%); 
     margin: auto;
     display: block;
