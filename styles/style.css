@@ -11,13 +11,14 @@ html, body {
 /* Section Index */
 .index-autor {
     float:left;
-    width: 30%;
+    width: 25%;
     height: 10%;
     margin: 2%;
     padding: 2%;
     border: black 2px solid;
     text-align: justify;
-    margin-left: 10%;
+    margin-left: 13%;
+    background-color: white;
 
     border-bottom: 5px outset #1C6EA4;
     border-radius: 35px 26px 40px 40px;
@@ -25,7 +26,7 @@ html, body {
 
 .index-autor img{
     width: 98%;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 .index-autor a{
@@ -80,8 +81,8 @@ html, body {
 
 /* Section Page 1.1 */
 .div-cadauno{
-    width: 30%;
-    height: 40%;
+    width: 25%;
+    height: 10%;
 
     padding: 2%;
     
@@ -90,12 +91,18 @@ html, body {
 
     margin-top: 2%;
     margin-bottom: 5%;
-    margin-left: 10.5%;
+    margin-left: 13%;
 
     display: inline-block;
 
     border-bottom: 5px outset #1C6EA4;
     border-radius: 35px 26px 40px 40px;
+
+    background-color: white;
+}
+
+.sect2{
+    background-color: #252424;
 }
 
 .sect2 img{
@@ -104,6 +111,8 @@ html, body {
 
 .sect2 h2{
     margin-top: 5%;
+    padding: 3%;
+    color: white;
     text-align: center;
 }
 
@@ -203,37 +212,42 @@ html, body {
 
 /* ------ ------ ------*/
 article {
-    padding-top: 2%;
     text-align: center;
     background-color: white;
 }
 
 pre span{
-    position: relative;
-    top: 30%;
-    right: -50%;
-
+    display: flex;
+    justify-content: center;
 }
+
 pre{
-    background-color: #C1DEED;
+    background-color: #252424;
     width: 100%;
     height: 480px;
     margin-top: 0%;
+    padding-bottom: 15.9%;
 }
 
 h1{
     display: inline;
-		position: relative;
-		font: 100px Helvetica, Sans-Serif;
-		letter-spacing: -5px;
-		color: black; 
+	position: relative;
+	font-family: 'Tangerine', cursive;
+    font-size: 5em;
+
+	color: white; 
+    z-index: 3;
+    background-color: #111;
+    padding: 2%;
 }
 
+/*
 h1:after{
     content: "Bienvenidos!!!";
-		position: absolute; left: 10px; top: 5px;
-		color: white;
+	position: absolute; left: 10px; top: 5px;
+	color: white;
 }
+*/
 
 a img{
     width: 2%;
@@ -242,14 +256,24 @@ a img{
     text-align: center;
 }
 
+.footer_prefooter{
+    background-color: #252424;
+}
+
+.walk{
+    width: 8%;
+    height: 8%;
+}
+
+
 /* ---------------------------------- Carrusel ------------------------------------------------ */
 .carousel {
     position: relative;
     display: block;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-    margin-top: 26px;
     width: 100%;
     height: 50%;
+    background-color: #252424;
 }
 
 .carousel-inner {
@@ -335,13 +359,14 @@ a img{
 }
 
 .carousel-bullet {
-    color: #fff;
+    color: white;
     cursor: pointer;
     display: block;
     font-size: 35px;
 }
 
 .carousel-bullet:hover {
+    border-color: #111;
     color: #aaaaaa;
 }
 
@@ -394,7 +419,7 @@ input {
     display: none;
 }
   
-label {
+nav label {
     box-sizing: border-box;
     display: inline-block;
     border: 1px solid black;
@@ -405,17 +430,17 @@ label {
     font-weight: bold;
     text-align: center;
     user-select: none;
-    background-color: #A7D0E5;
+    background-color: white;
 }
   
   /* Estilo del boton cuando se pasa el mouse por encima*/
-label:hover{
-    background: #6DB6DA;
+nav label:hover{
+    background: #aaaaaa;
 }
   
   /* Estilo del boton cuando el menú está expandido*/
-input:checked ~ label {
-    background: #A7D0E5; 
+nav input:checked ~ label {
+    background: #aaaaaa; 
 }
   
 ul{
@@ -430,18 +455,23 @@ li{
   
 li a{
     display: block;
-    background: #A7D0E5;
+    background: white;
     margin: 0;
     padding: 10px;
     list-style: none;
-    border-bottom: 1px solid #6DB6DA;
+    border: 1px solid black;
     text-decoration: none;
     color: #111;
+}
+
+li a:hover{
+    background-color: #aaaaaa;
 }
   
   /*Estilo cuando el mouse pasa encima de cada link del menu*/
 li:hover {
     filter: brightness(110%);
+
 }
 
 /* ---------------------------------- Canvas ------------------------------------------------ */
@@ -454,9 +484,9 @@ li:hover {
 
 body.hasFrameBorder canvas:first-of-type {
     position: absolute;
-    left: 50%;
-    top: 32.6%;
-	transform: translate(-95%, -50%); 
+    left: 0%;
+    top: 0%;
+    z-index: 1;
     margin: auto;
     display: block;
 }
@@ -468,13 +498,16 @@ footer{
     column-count: 2;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 20px;
-    column-rule: black solid 1px;
+    column-rule: white solid 1px;
+    color: white;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: #252424;
 }
 
 .prefooter{
     clear: left;
-    background-color: #C1DEED;
+    background-color: white;
     padding: 2%;
 }
 
@@ -489,7 +522,7 @@ footer a{
     background-color:#111;
     padding: 1%;
     border: 1px;
-    border-color: black;
+    border-color: white;
     border-style: solid;
     margin-left: 1%;
     color: white;
@@ -502,6 +535,7 @@ footer a{
 footer a:hover{
     background-color: white;
     color: black;
+    border-color: black;
 }
 
 .realizado {
@@ -511,3 +545,30 @@ footer a:hover{
 .github {
     padding-top: 30px;
 }
+
+/* ----------------------------------------- Star ------------------------------------------ */
+div.valoracion {
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    float: right;
+  }
+  
+  div.valoracion input {
+    position: absolute;
+  }
+  
+  div.valoracion label {
+    color: #333;
+    width: 23px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  div.valoracion label:hover,
+  div.valoracion label:hover ~ label,
+  div.valoracion input:checked ~ label {
+    color: #dd4;
+  }
+
